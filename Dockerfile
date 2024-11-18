@@ -1,4 +1,4 @@
-FROM fredboat/lavalink:4.0.3
+FROM fredboat/lavalink:4.0.8
 
 # Create plugins directory with correct permissions
 USER root
