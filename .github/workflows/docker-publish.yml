@@ -16,7 +16,8 @@ jobs:
       - name: Debugging
         run: |
           ls -al
-          pwd
+          ls -al ./plugins
+           pwd
 
       - name: Login to Private Registry
         run: echo "${{ secrets.REGISTRY_PASSWORD }}" | docker login https://docker-registory.noerror.studio -u "${{ secrets.REGISTRY_USERNAME }}" --password-stdin
