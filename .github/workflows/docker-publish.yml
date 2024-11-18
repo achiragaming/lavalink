@@ -19,9 +19,9 @@ jobs:
           pwd
 
       - name: Login to Private Registry
-        run: echo "${{ secrets.REGISTRY_PASSWORD }}" | docker login docker-registry.noerror.studio -u "${{ secrets.REGISTRY_USERNAME }}" --password-stdin
+        run: echo "${{ secrets.REGISTRY_PASSWORD }}" | docker login https://docker-registory.noerror.studio -u "${{ secrets.REGISTRY_USERNAME }}" --password-stdin
 
       - name: Build and push Docker image
         run: |
-          docker build -t docker-registry.noerror.studio/${{ secrets.REPO_NAME }}:latest .
-          docker push docker-registry.noerror.studio/${{ secrets.REPO_NAME }}:latest
+          docker build -t docker-registory.noerror.studio/${{ secrets.REPO_NAME }}:latest .
+          docker push docker-registory.noerror.studio/${{ secrets.REPO_NAME }}:latest
