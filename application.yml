@@ -118,8 +118,6 @@ plugins:
             translate: false
             voice: default voice
         providers:
-            - ytsearch:"%ISRC%"
-            - ytsearch:%QUERY%
             - dzisrc:"%ISRC%"
             - dzsearch:%QUERY%
             - jssearch:%QUERY%
