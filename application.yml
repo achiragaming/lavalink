@@ -27,7 +27,7 @@ lavalink:
         opusEncodingQuality: 10
         password: ninju@lavalink
         playerUpdateInterval: 5
-        resamplingQuality: MEDIUM
+        resamplingQuality: HIGH
         soundcloudSearchEnabled: true
         sources:
             bandcamp: true
