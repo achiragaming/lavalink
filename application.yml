@@ -152,7 +152,7 @@ plugins:
             - WEB
             - WEBEMBEDDED
             - TVHTML5EMBEDDED
-        enabled: true
+        enabled: false
         oauth:
             enabled: true
             refreshToken: 1//05fMs_Q96UtLeCgYIARAAGAUSNwF-L9IrYPaCVPTXGwM9P6SGgCdEp_s8DF08wu2TFfhdaaCusD3W4gV7SDXF9kXc-BiRoz5MGAs
