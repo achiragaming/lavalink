@@ -70,28 +70,28 @@ metrics:
     enabled: false
     endpoint: /metrics
 plugins:
-#   lavasrc:
-#     providers:
-#       - dzisrc:"%ISRC%"
-#       - dzsearch:%QUERY%
-#       - jssearch:%QUERY%
-#       - scsearch:%QUERY%
-#       - tdsearch:%QUERY%
-#       - bcsearch:%QUERY%
-#     sources:
-#       applemusic: false
-#       deezer: false
-#       flowerytts: false
-#       spotify: true
-#       tidal: false
-#       yandexmusic: false
-#       youtube: false
-#     spotify:
-#       albumLoadLimit: 6
-#       countryCode: US
-#       playlistLoadLimit: 6
-#     youtube:
-#       countryCode: US
+  #   lavasrc:
+  #     providers:
+  #       - dzisrc:"%ISRC%"
+  #       - dzsearch:%QUERY%
+  #       - jssearch:%QUERY%
+  #       - scsearch:%QUERY%
+  #       - tdsearch:%QUERY%
+  #       - bcsearch:%QUERY%
+  #     sources:
+  #       applemusic: false
+  #       deezer: false
+  #       flowerytts: false
+  #       spotify: true
+  #       tidal: false
+  #       yandexmusic: false
+  #       youtube: false
+  #     spotify:
+  #       albumLoadLimit: 6
+  #       countryCode: US
+  #       playlistLoadLimit: 6
+  #     youtube:
+  #       countryCode: US
   youtube:
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
@@ -106,12 +106,12 @@ plugins:
       - IOS
       - MEDIA_CONNECT
       #- ANDROID_TESTSUITE   ded
-      - TVHTML5EMBEDDED 
+      - TVHTML5EMBEDDED
       #- ANDROID_LITE  ded
     enabled: true
     pot:
-      token: MnSpP78qgmSbpqkH0W-wxcolAGTS0Q81JC1Np45IAFrpeXPyqsqBC24KVVWreMGtAVHllEvFdeTzZh2znfjjI7P14oGZdHmuKo88FYEnLgB5rtZ5Wv-7zjQcQKnCDyqSU_el0EsP6tUNPpsmkAc6zL620Y3pMg==
-      visitorData: Cgs1VUtLemo2Y0Q1dyi_mfu5BjIKCgJVUxIEGgAgJQ%3D%3D
+      token: ${YOUTUBE_POT_TOKEN}
+      visitorData: ${YOUTUBE_POT_VISITOR_DATA}
 server:
   address: 0.0.0.0
   http2:
