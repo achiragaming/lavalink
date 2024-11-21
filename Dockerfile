@@ -4,6 +4,11 @@ FROM fredboat/lavalink:4.0.8
 USER root
 RUN mkdir -p /opt/Lavalink/plugins && chown -R lavalink:lavalink /opt/Lavalink/plugins
 
+# Install jq using apt
+RUN apt-get update && \
+    apt-get install -y jq && \
+    rm -rf /var/lib/apt/lists/*
+
 # Switch back to lavalink user
 USER lavalink
 
