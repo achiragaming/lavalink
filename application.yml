@@ -153,8 +153,8 @@ plugins:
       - TVHTML5EMBEDDED
     enabled: true
     pot:
-      token: "${json-select:$.potoken:http://localhost:8080/token}"
-      visitorData: "${json-select:$.visitor_data:http://localhost:8080/token}"
+      token: "${json-select:$.potoken:http://localhost:8065/token}"
+      visitorData: "${json-select:$.visitor_data:http://localhost:8065/token}"
     sentry: null
 server:
   address: 0.0.0.0
