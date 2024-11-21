@@ -1,16 +1,16 @@
 lavalink:
   plugins:
-    - dependency: com.github.appujet:jiosaavn-plugin:1.0.2
-      repository: https://jitpack.io
-    - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
-      snapshot: false
+    # - dependency: com.github.appujet:jiosaavn-plugin:1.0.2
+    #   repository: https://jitpack.io
+    # - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
+    #   snapshot: false
     - dependency: com.github.topi314.sponsorblock:sponsorblock-plugin:3.0.1
       snapshot: false
     - dependency: "dev.lavalink.youtube:youtube-plugin:c358ae412eeae61f87b6f99acfa57e8b91cc9218"
       snapshot: true # Set to true if you want to use a snapshot version.
-    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.3.0"
-      repository: "https://maven.lavalink.dev/releases" # this is optional for lavalink v4.0.0-beta.5 or greater
-      snapshot: false # set to true if you want to use snapshot builds (see below)
+    # - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.3.0"
+    #   repository: "https://maven.lavalink.dev/releases" # this is optional for lavalink v4.0.0-beta.5 or greater
+    #   snapshot: false # set to true if you want to use snapshot builds (see below)
 
   pluginsDir: ./plugins
   server:
@@ -70,73 +70,28 @@ metrics:
     enabled: false
     endpoint: /metrics
 plugins:
-  dsn: ""
-  dunctebot:
-    plugin_sources:
-      clypit: true
-      getyarn: true
-      mixcloud: true
-      ocremix: true
-      pixeldrain: true
-      pornhub: true
-      reddit: true
-      soundgasm: true
-      tiktok: true
-      tts: true
-    ttsLanguage: en-US
-  environment: ""
-  jiosaavn:
-    apiURL: https://jiosaavn-plugin-api.deno.dev
-    playlistTrackLimit: 50
-    recommendationsTrackLimit: 10
-  lavasrc:
-    applemusic:
-      albumLoadLimit: 6
-      countryCode: US
-      keyID: your key id
-      mediaAPIToken: your apple music api token
-      musicKitKey: |-
-        -----BEGIN PRIVATE KEY-----
-        your key
-        -----END PRIVATE KEY-----
-      playlistLoadLimit: 6
-      teamID: your team id
-    deezer:
-      formats:
-        - FLAC
-        - MP3_320
-        - MP3_256
-        - MP3_128
-        - MP3_64
-        - AAC_64
-      masterDecryptionKey: your master decryption key
-    flowerytts:
-      audioFormat: mp3
-      silence: 0
-      speed: 1
-      translate: false
-      voice: default voice
-    providers:
-      - dzisrc:"%ISRC%"
-      - dzsearch:%QUERY%
-      - jssearch:%QUERY%
-      - scsearch:%QUERY%
-      - tdsearch:%QUERY%
-      - bcsearch:%QUERY%
-    sources:
-      applemusic: false
-      deezer: false
-      flowerytts: false
-      spotify: true
-      tidal: false
-      yandexmusic: false
-      youtube: false
-    spotify:
-      albumLoadLimit: 6
-      countryCode: US
-      playlistLoadLimit: 6
-    youtube:
-      countryCode: US
+#   lavasrc:
+#     providers:
+#       - dzisrc:"%ISRC%"
+#       - dzsearch:%QUERY%
+#       - jssearch:%QUERY%
+#       - scsearch:%QUERY%
+#       - tdsearch:%QUERY%
+#       - bcsearch:%QUERY%
+#     sources:
+#       applemusic: false
+#       deezer: false
+#       flowerytts: false
+#       spotify: true
+#       tidal: false
+#       yandexmusic: false
+#       youtube: false
+#     spotify:
+#       albumLoadLimit: 6
+#       countryCode: US
+#       playlistLoadLimit: 6
+#     youtube:
+#       countryCode: US
   youtube:
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
@@ -157,7 +112,6 @@ plugins:
     pot:
       token: MnSpP78qgmSbpqkH0W-wxcolAGTS0Q81JC1Np45IAFrpeXPyqsqBC24KVVWreMGtAVHllEvFdeTzZh2znfjjI7P14oGZdHmuKo88FYEnLgB5rtZ5Wv-7zjQcQKnCDyqSU_el0EsP6tUNPpsmkAc6zL620Y3pMg==
       visitorData: Cgs1VUtLemo2Y0Q1dyi_mfu5BjIKCgJVUxIEGgAgJQ%3D%3D
-    sentry: null
 server:
   address: 0.0.0.0
   http2:
