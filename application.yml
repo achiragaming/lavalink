@@ -151,7 +151,7 @@ plugins:
       - IOS
       - MEDIA_CONNECT
       #- ANDROID_TESTSUITE   ded
-      - TVHTML5EMBEDDED    if i use this my oauth account gets flagged after some day
+      - TVHTML5EMBEDDED 
       #- ANDROID_LITE  ded
     enabled: true
     pot:
