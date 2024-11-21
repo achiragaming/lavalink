@@ -130,7 +130,7 @@ plugins:
       spotify: true
       tidal: false
       yandexmusic: false
-      youtube: true
+      youtube: false
     spotify:
       albumLoadLimit: 6
       countryCode: US
