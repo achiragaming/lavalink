@@ -13,6 +13,7 @@ lavalink:
     #   snapshot: false # set to true if you want to use snapshot builds (see below)
 
   pluginsDir: ./plugins
+
   server:
     bufferDurationMs: 400
     filters:
@@ -112,6 +113,10 @@ plugins:
     pot:
       token: ${YOUTUBE_POT_TOKEN}
       visitorData: ${YOUTUBE_POT_VISITOR_DATA}
+  metrics:
+    prometheus:
+      enabled: true
+      endpoint: /metrics
 server:
   address: 0.0.0.0
   http2:

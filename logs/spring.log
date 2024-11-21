@@ -1102,3 +1102,339 @@ Caused by: java.io.IOException: Invalid status code for player api response: 403
 2024-11-21T14:15:29.549+05:30  INFO 39232 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.13.Final
 2024-11-21T14:15:29.566+05:30  INFO 39232 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
 2024-11-21T14:15:29.582+05:30  INFO 39232 --- [Lavalink] [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-11-21T20:20:09.719+05:30  INFO 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.8 using Java 21.0.1 with PID 48996 (J:\GitHub\lavalink\Lavalink.jar started by Achira Gaming in J:\GitHub\lavalink)
+2024-11-21T20:20:09.732+05:30 DEBUG 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : Running with Spring Boot v3.3.0, Spring v6.1.9
+2024-11-21T20:20:09.734+05:30  INFO 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T20:20:12.461+05:30  INFO 48996 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'sponsorblock-plugin' version 3.0.1
+2024-11-21T20:20:12.462+05:30  INFO 48996 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'youtube-plugin' version c358ae412eeae61f87b6f99acfa57e8b91cc9218
+2024-11-21T20:20:12.645+05:30  INFO 48996 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded sponsorblock-plugin-3.0.1.jar (90 classes)
+2024-11-21T20:20:12.680+05:30  INFO 48996 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded youtube-plugin-c358ae412eeae61f87b6f99acfa57e8b91cc9218.jar (16 classes)
+2024-11-21T20:20:13.125+05:30  INFO 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 4.589 seconds (process running for 5.75)
+2024-11-21T20:20:13.312+05:30  INFO 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.8
+	Build time:     20.09.2024 20:20:10 UTC
+	Branch          HEAD
+	Commit:         2946608
+	Commit time:    20.09.2024 20:17:58 UTC
+	JVM:            21.0.1
+	Lavaplayer      2.2.2
+
+2024-11-21T20:20:13.330+05:30  INFO 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T20:20:15.157+05:30  WARN 48996 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-11-21T20:20:15.210+05:30  INFO 48996 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-11-21T20:20:15.211+05:30  INFO 48996 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1865 ms
+2024-11-21T20:20:15.422+05:30  INFO 48996 --- [Lavalink] [main] c.g.t.s.plugin.SponsorBlockPlugin        : Loading SponsorBlock Plugin...
+2024-11-21T20:20:16.080+05:30 DEBUG 48996 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : No rate limit config block found, skipping setup of route planner
+2024-11-21T20:20:16.199+05:30  INFO 48996 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-11-21T20:20:16.203+05:30 DEBUG 48996 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting frame buffer duration to 5000ms
+2024-11-21T20:20:16.203+05:30 DEBUG 48996 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting opusEncodingQuality to 10
+2024-11-21T20:20:16.204+05:30 DEBUG 48996 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting resamplingQuality to HIGH
+2024-11-21T20:20:16.255+05:30 DEBUG 48996 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting Track Stuck Threshold to 10000ms
+2024-11-21T20:20:16.272+05:30 DEBUG 48996 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting useSeekGhosting to true
+2024-11-21T20:20:17.864+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : Applying poToken and visitorData to WEB & WEBEMBEDDED client (token: ${YOUTUBE_POT_TOKEN}, vd: ${YOUTUBE_POT_VISITOR_DATA})
+2024-11-21T20:20:17.937+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:17.939+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEB with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:17.996+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_VR with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:18.002+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEBEMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:18.003+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:18.004+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client IOS with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:18.005+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MEDIA_CONNECT with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:18.007+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client TVHTML5EMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:20:18.070+05:30  INFO 48996 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : YouTube source initialised with clients: WEB_REMIX, WEB, ANDROID_VR, WEB_EMBEDDED_PLAYER, ANDROID_MUSIC, IOS, MEDIA_CONNECT_FRONTEND, TVHTML5_SIMPLY_EMBEDDED_PLAYER 
+2024-11-21T20:20:18.071+05:30 DEBUG 48996 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : No ratelimit config found, skipping setup of route planner
+2024-11-21T20:20:18.410+05:30  INFO 48996 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-11-21T20:20:18.411+05:30  INFO 48996 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-11-21T20:20:18.416+05:30  INFO 48996 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-11-21T20:20:18.434+05:30  INFO 48996 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-11-21T20:20:18.493+05:30  WARN 48996 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-11-21T20:20:19.235+05:30 DEBUG 48996 --- [Lavalink] [main] l.server.io.RequestLoggingFilter         : Filter 'logFilter' configured for use
+2024-11-21T20:20:19.239+05:30 DEBUG 48996 --- [Lavalink] [main] l.server.io.ResponseHeaderFilter         : Filter 'responseHeaderFilter' configured for use
+2024-11-21T20:20:19.243+05:30  INFO 48996 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-11-21T20:20:19.269+05:30  INFO 48996 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-11-21T20:20:19.305+05:30  INFO 48996 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-11-21T20:20:19.520+05:30  INFO 48996 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-11-21T20:20:19.647+05:30  INFO 48996 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 6951 (http) with context path '/'
+2024-11-21T20:20:19.657+05:30  INFO 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 6.517 seconds (process running for 12.282)
+2024-11-21T20:20:19.665+05:30  INFO 48996 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-11-21T20:20:48.087+05:30  INFO 48996 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.13.Final
+2024-11-21T20:20:48.101+05:30  INFO 48996 --- [Lavalink] [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-11-21T20:21:48.317+05:30  INFO 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.8 using Java 21.0.1 with PID 62248 (J:\GitHub\lavalink\Lavalink.jar started by Achira Gaming in J:\GitHub\lavalink)
+2024-11-21T20:21:48.349+05:30 DEBUG 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : Running with Spring Boot v3.3.0, Spring v6.1.9
+2024-11-21T20:21:48.350+05:30  INFO 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T20:21:50.706+05:30  INFO 62248 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'sponsorblock-plugin' version 3.0.1
+2024-11-21T20:21:50.707+05:30  INFO 62248 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'youtube-plugin' version c358ae412eeae61f87b6f99acfa57e8b91cc9218
+2024-11-21T20:21:50.877+05:30  INFO 62248 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded sponsorblock-plugin-3.0.1.jar (90 classes)
+2024-11-21T20:21:50.917+05:30  INFO 62248 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded youtube-plugin-c358ae412eeae61f87b6f99acfa57e8b91cc9218.jar (16 classes)
+2024-11-21T20:21:51.290+05:30  INFO 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 4.144 seconds (process running for 5.597)
+2024-11-21T20:21:51.449+05:30  INFO 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.8
+	Build time:     20.09.2024 20:20:10 UTC
+	Branch          HEAD
+	Commit:         2946608
+	Commit time:    20.09.2024 20:17:58 UTC
+	JVM:            21.0.1
+	Lavaplayer      2.2.2
+
+2024-11-21T20:21:51.467+05:30  INFO 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T20:21:52.972+05:30  WARN 62248 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-11-21T20:21:53.023+05:30  INFO 62248 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-11-21T20:21:53.026+05:30  INFO 62248 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1534 ms
+2024-11-21T20:21:53.225+05:30  INFO 62248 --- [Lavalink] [main] c.g.t.s.plugin.SponsorBlockPlugin        : Loading SponsorBlock Plugin...
+2024-11-21T20:21:53.530+05:30 DEBUG 62248 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : No rate limit config block found, skipping setup of route planner
+2024-11-21T20:21:53.622+05:30  INFO 62248 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-11-21T20:21:53.624+05:30 DEBUG 62248 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting frame buffer duration to 5000ms
+2024-11-21T20:21:53.624+05:30 DEBUG 62248 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting opusEncodingQuality to 10
+2024-11-21T20:21:53.625+05:30 DEBUG 62248 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting resamplingQuality to HIGH
+2024-11-21T20:21:53.638+05:30 DEBUG 62248 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting Track Stuck Threshold to 10000ms
+2024-11-21T20:21:53.700+05:30 DEBUG 62248 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting useSeekGhosting to true
+2024-11-21T20:21:54.969+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : Applying poToken and visitorData to WEB & WEBEMBEDDED client (token: ${YOUTUBE_POT_TOKEN}, vd: ${YOUTUBE_POT_VISITOR_DATA})
+2024-11-21T20:21:55.011+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.012+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEB with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.012+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_VR with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.014+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEBEMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.015+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.015+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client IOS with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.018+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MEDIA_CONNECT with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.018+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client TVHTML5EMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:21:55.044+05:30  INFO 62248 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : YouTube source initialised with clients: WEB_REMIX, WEB, ANDROID_VR, WEB_EMBEDDED_PLAYER, ANDROID_MUSIC, IOS, MEDIA_CONNECT_FRONTEND, TVHTML5_SIMPLY_EMBEDDED_PLAYER 
+2024-11-21T20:21:55.045+05:30 DEBUG 62248 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : No ratelimit config found, skipping setup of route planner
+2024-11-21T20:21:55.300+05:30  INFO 62248 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-11-21T20:21:55.301+05:30  INFO 62248 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-11-21T20:21:55.307+05:30  INFO 62248 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-11-21T20:21:55.326+05:30  INFO 62248 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-11-21T20:21:55.388+05:30  WARN 62248 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-11-21T20:21:56.183+05:30 DEBUG 62248 --- [Lavalink] [main] l.server.io.RequestLoggingFilter         : Filter 'logFilter' configured for use
+2024-11-21T20:21:56.193+05:30 DEBUG 62248 --- [Lavalink] [main] l.server.io.ResponseHeaderFilter         : Filter 'responseHeaderFilter' configured for use
+2024-11-21T20:21:56.255+05:30  INFO 62248 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-11-21T20:21:56.288+05:30  INFO 62248 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-11-21T20:21:56.303+05:30  INFO 62248 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-11-21T20:21:56.573+05:30  INFO 62248 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-11-21T20:21:56.699+05:30  INFO 62248 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 6951 (http) with context path '/'
+2024-11-21T20:21:56.743+05:30  INFO 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 5.444 seconds (process running for 11.05)
+2024-11-21T20:21:56.751+05:30  INFO 62248 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-11-21T20:22:22.653+05:30  INFO 62248 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.13.Final
+2024-11-21T20:22:22.669+05:30  INFO 62248 --- [Lavalink] [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-11-21T20:23:23.499+05:30  INFO 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.8 using Java 21.0.1 with PID 61748 (J:\GitHub\lavalink\Lavalink.jar started by Achira Gaming in J:\GitHub\lavalink)
+2024-11-21T20:23:23.538+05:30 DEBUG 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : Running with Spring Boot v3.3.0, Spring v6.1.9
+2024-11-21T20:23:23.541+05:30  INFO 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T20:23:25.666+05:30  INFO 61748 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'sponsorblock-plugin' version 3.0.1
+2024-11-21T20:23:25.669+05:30  INFO 61748 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'youtube-plugin' version c358ae412eeae61f87b6f99acfa57e8b91cc9218
+2024-11-21T20:23:25.838+05:30  INFO 61748 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded sponsorblock-plugin-3.0.1.jar (90 classes)
+2024-11-21T20:23:25.862+05:30  INFO 61748 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded youtube-plugin-c358ae412eeae61f87b6f99acfa57e8b91cc9218.jar (16 classes)
+2024-11-21T20:23:26.225+05:30  INFO 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 3.793 seconds (process running for 5.085)
+2024-11-21T20:23:26.377+05:30  INFO 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.8
+	Build time:     20.09.2024 20:20:10 UTC
+	Branch          HEAD
+	Commit:         2946608
+	Commit time:    20.09.2024 20:17:58 UTC
+	JVM:            21.0.1
+	Lavaplayer      2.2.2
+
+2024-11-21T20:23:26.399+05:30  INFO 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T20:23:27.845+05:30  WARN 61748 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-11-21T20:23:27.885+05:30  INFO 61748 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-11-21T20:23:27.888+05:30  INFO 61748 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1471 ms
+2024-11-21T20:23:28.025+05:30  INFO 61748 --- [Lavalink] [main] c.g.t.s.plugin.SponsorBlockPlugin        : Loading SponsorBlock Plugin...
+2024-11-21T20:23:28.478+05:30 DEBUG 61748 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : No rate limit config block found, skipping setup of route planner
+2024-11-21T20:23:28.601+05:30  INFO 61748 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-11-21T20:23:28.605+05:30 DEBUG 61748 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting frame buffer duration to 5000ms
+2024-11-21T20:23:28.606+05:30 DEBUG 61748 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting opusEncodingQuality to 10
+2024-11-21T20:23:28.609+05:30 DEBUG 61748 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting resamplingQuality to HIGH
+2024-11-21T20:23:28.610+05:30 DEBUG 61748 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting Track Stuck Threshold to 10000ms
+2024-11-21T20:23:28.611+05:30 DEBUG 61748 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting useSeekGhosting to true
+2024-11-21T20:23:30.063+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : Applying poToken and visitorData to WEB & WEBEMBEDDED client (token: value, vd: ${YOUTUBE_POT_VISITOR_DATA})
+2024-11-21T20:23:30.114+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.115+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEB with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.116+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_VR with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.117+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEBEMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.118+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.120+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client IOS with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.122+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MEDIA_CONNECT with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.123+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client TVHTML5EMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T20:23:30.147+05:30  INFO 61748 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : YouTube source initialised with clients: WEB_REMIX, WEB, ANDROID_VR, WEB_EMBEDDED_PLAYER, ANDROID_MUSIC, IOS, MEDIA_CONNECT_FRONTEND, TVHTML5_SIMPLY_EMBEDDED_PLAYER 
+2024-11-21T20:23:30.148+05:30 DEBUG 61748 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : No ratelimit config found, skipping setup of route planner
+2024-11-21T20:23:30.411+05:30  INFO 61748 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-11-21T20:23:30.414+05:30  INFO 61748 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-11-21T20:23:30.424+05:30  INFO 61748 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-11-21T20:23:30.446+05:30  INFO 61748 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-11-21T20:23:30.508+05:30  WARN 61748 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-11-21T20:23:31.165+05:30 DEBUG 61748 --- [Lavalink] [main] l.server.io.RequestLoggingFilter         : Filter 'logFilter' configured for use
+2024-11-21T20:23:31.169+05:30 DEBUG 61748 --- [Lavalink] [main] l.server.io.ResponseHeaderFilter         : Filter 'responseHeaderFilter' configured for use
+2024-11-21T20:23:31.171+05:30  INFO 61748 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-11-21T20:23:31.203+05:30  INFO 61748 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-11-21T20:23:31.229+05:30  INFO 61748 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-11-21T20:23:31.443+05:30  INFO 61748 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-11-21T20:23:31.553+05:30  INFO 61748 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 6951 (http) with context path '/'
+2024-11-21T20:23:31.566+05:30  INFO 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 5.32 seconds (process running for 10.425)
+2024-11-21T20:23:31.568+05:30  INFO 61748 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-11-21T20:23:39.124+05:30  INFO 61748 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.13.Final
+2024-11-21T20:23:39.143+05:30  INFO 61748 --- [Lavalink] [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-11-21T21:09:51.298+05:30  INFO 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.8 using Java 21.0.1 with PID 60688 (J:\GitHub\lavalink\Lavalink.jar started by Achira Gaming in J:\GitHub\lavalink)
+2024-11-21T21:09:51.307+05:30 DEBUG 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : Running with Spring Boot v3.3.0, Spring v6.1.9
+2024-11-21T21:09:51.309+05:30  INFO 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T21:09:53.021+05:30  INFO 60688 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'sponsorblock-plugin' version 3.0.1
+2024-11-21T21:09:53.023+05:30  INFO 60688 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'youtube-plugin' version c358ae412eeae61f87b6f99acfa57e8b91cc9218
+2024-11-21T21:09:53.174+05:30  INFO 60688 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded sponsorblock-plugin-3.0.1.jar (90 classes)
+2024-11-21T21:09:53.199+05:30  INFO 60688 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded youtube-plugin-c358ae412eeae61f87b6f99acfa57e8b91cc9218.jar (16 classes)
+2024-11-21T21:09:53.573+05:30  INFO 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 3.072 seconds (process running for 3.879)
+2024-11-21T21:09:53.732+05:30  INFO 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.8
+	Build time:     20.09.2024 20:20:10 UTC
+	Branch          HEAD
+	Commit:         2946608
+	Commit time:    20.09.2024 20:17:58 UTC
+	JVM:            21.0.1
+	Lavaplayer      2.2.2
+
+2024-11-21T21:09:53.767+05:30  INFO 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T21:09:55.135+05:30  WARN 60688 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-11-21T21:09:55.184+05:30  INFO 60688 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-11-21T21:09:55.186+05:30  INFO 60688 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1411 ms
+2024-11-21T21:09:55.369+05:30  INFO 60688 --- [Lavalink] [main] c.g.t.s.plugin.SponsorBlockPlugin        : Loading SponsorBlock Plugin...
+2024-11-21T21:09:55.813+05:30 DEBUG 60688 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : No rate limit config block found, skipping setup of route planner
+2024-11-21T21:09:55.905+05:30  INFO 60688 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-11-21T21:09:55.906+05:30 DEBUG 60688 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting frame buffer duration to 5000ms
+2024-11-21T21:09:55.906+05:30 DEBUG 60688 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting opusEncodingQuality to 10
+2024-11-21T21:09:55.907+05:30 DEBUG 60688 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting resamplingQuality to HIGH
+2024-11-21T21:09:55.945+05:30 DEBUG 60688 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting Track Stuck Threshold to 10000ms
+2024-11-21T21:09:55.981+05:30 DEBUG 60688 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting useSeekGhosting to true
+2024-11-21T21:09:57.469+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : Applying poToken and visitorData to WEB & WEBEMBEDDED client (token: value, vd: ${YOUTUBE_POT_VISITOR_DATA})
+2024-11-21T21:09:57.515+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.516+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEB with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.517+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_VR with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.518+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEBEMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.519+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.520+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client IOS with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.521+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MEDIA_CONNECT with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.521+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client TVHTML5EMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:09:57.554+05:30  INFO 60688 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : YouTube source initialised with clients: WEB_REMIX, WEB, ANDROID_VR, WEB_EMBEDDED_PLAYER, ANDROID_MUSIC, IOS, MEDIA_CONNECT_FRONTEND, TVHTML5_SIMPLY_EMBEDDED_PLAYER 
+2024-11-21T21:09:57.555+05:30 DEBUG 60688 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : No ratelimit config found, skipping setup of route planner
+2024-11-21T21:09:57.762+05:30  INFO 60688 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-11-21T21:09:57.763+05:30  INFO 60688 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-11-21T21:09:57.770+05:30  INFO 60688 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-11-21T21:09:57.781+05:30  INFO 60688 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-11-21T21:09:57.847+05:30  WARN 60688 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-11-21T21:09:58.523+05:30 DEBUG 60688 --- [Lavalink] [main] l.server.io.RequestLoggingFilter         : Filter 'logFilter' configured for use
+2024-11-21T21:09:58.527+05:30 DEBUG 60688 --- [Lavalink] [main] l.server.io.ResponseHeaderFilter         : Filter 'responseHeaderFilter' configured for use
+2024-11-21T21:09:58.530+05:30  INFO 60688 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-11-21T21:09:58.549+05:30  INFO 60688 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-11-21T21:09:58.574+05:30  INFO 60688 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-11-21T21:09:58.760+05:30  INFO 60688 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-11-21T21:09:58.868+05:30  INFO 60688 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 6951 (http) with context path '/'
+2024-11-21T21:09:58.879+05:30  INFO 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 5.284 seconds (process running for 9.186)
+2024-11-21T21:09:58.889+05:30  INFO 60688 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-11-21T21:10:11.576+05:30  INFO 60688 --- [Lavalink] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T21:10:11.577+05:30  INFO 60688 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T21:10:11.579+05:30  INFO 60688 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T21:10:11.693+05:30  WARN 60688 --- [Lavalink] [XNIO-1 task-2] l.s.config.RequestAuthorizationFilter    : Authorization missing for 0:0:0:0:0:0:0:1 on GET /version
+2024-11-21T21:10:11.694+05:30  INFO 60688 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /version, client=0:0:0:0:0:0:0:1
+2024-11-21T21:15:53.892+05:30  INFO 60688 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.13.Final
+2024-11-21T21:15:53.897+05:30  INFO 60688 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-11-21T21:15:53.901+05:30  INFO 60688 --- [Lavalink] [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-11-21T21:15:57.336+05:30  INFO 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.8 using Java 21.0.1 with PID 64792 (J:\GitHub\lavalink\Lavalink.jar started by Achira Gaming in J:\GitHub\lavalink)
+2024-11-21T21:15:57.387+05:30 DEBUG 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : Running with Spring Boot v3.3.0, Spring v6.1.9
+2024-11-21T21:15:57.389+05:30  INFO 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T21:15:59.539+05:30  INFO 64792 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'sponsorblock-plugin' version 3.0.1
+2024-11-21T21:15:59.540+05:30  INFO 64792 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Found plugin 'youtube-plugin' version c358ae412eeae61f87b6f99acfa57e8b91cc9218
+2024-11-21T21:15:59.669+05:30  INFO 64792 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded sponsorblock-plugin-3.0.1.jar (90 classes)
+2024-11-21T21:15:59.700+05:30  INFO 64792 --- [Lavalink] [main] l.server.bootstrap.PluginManager         : Loaded youtube-plugin-c358ae412eeae61f87b6f99acfa57e8b91cc9218.jar (16 classes)
+2024-11-21T21:16:00.270+05:30  INFO 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 4.074 seconds (process running for 5.167)
+2024-11-21T21:16:00.437+05:30  INFO 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.8
+	Build time:     20.09.2024 20:20:10 UTC
+	Branch          HEAD
+	Commit:         2946608
+	Commit time:    20.09.2024 20:17:58 UTC
+	JVM:            21.0.1
+	Lavaplayer      2.2.2
+
+2024-11-21T21:16:00.492+05:30  INFO 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T21:16:02.773+05:30  WARN 64792 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-11-21T21:16:02.811+05:30  INFO 64792 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-11-21T21:16:02.813+05:30  INFO 64792 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2299 ms
+2024-11-21T21:16:03.096+05:30  INFO 64792 --- [Lavalink] [main] c.g.t.s.plugin.SponsorBlockPlugin        : Loading SponsorBlock Plugin...
+2024-11-21T21:16:03.517+05:30 DEBUG 64792 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : No rate limit config block found, skipping setup of route planner
+2024-11-21T21:16:03.601+05:30  INFO 64792 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-11-21T21:16:03.603+05:30 DEBUG 64792 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting frame buffer duration to 5000ms
+2024-11-21T21:16:03.603+05:30 DEBUG 64792 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting opusEncodingQuality to 10
+2024-11-21T21:16:03.604+05:30 DEBUG 64792 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting resamplingQuality to HIGH
+2024-11-21T21:16:03.606+05:30 DEBUG 64792 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting Track Stuck Threshold to 10000ms
+2024-11-21T21:16:03.621+05:30 DEBUG 64792 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : Setting useSeekGhosting to true
+2024-11-21T21:16:04.937+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : Applying poToken and visitorData to WEB & WEBEMBEDDED client (token: value, vd: ${YOUTUBE_POT_VISITOR_DATA})
+2024-11-21T21:16:04.982+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:04.983+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEB with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:04.983+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_VR with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:04.985+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client WEBEMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:04.986+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client ANDROID_MUSIC with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:04.986+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client IOS with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:04.987+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client MEDIA_CONNECT with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:04.988+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.ClientProvider        : Initialising client TVHTML5EMBEDDED with options ClientOptions{playback=true, playlistLoading=true, videoLoading=true, searching=true}
+2024-11-21T21:16:05.015+05:30  INFO 64792 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : YouTube source initialised with clients: WEB_REMIX, WEB, ANDROID_VR, WEB_EMBEDDED_PLAYER, ANDROID_MUSIC, IOS, MEDIA_CONNECT_FRONTEND, TVHTML5_SIMPLY_EMBEDDED_PLAYER 
+2024-11-21T21:16:05.016+05:30 DEBUG 64792 --- [Lavalink] [main] d.l.youtube.plugin.YoutubePluginLoader   : No ratelimit config found, skipping setup of route planner
+2024-11-21T21:16:05.298+05:30  INFO 64792 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-11-21T21:16:05.300+05:30  INFO 64792 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-11-21T21:16:05.322+05:30  INFO 64792 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-11-21T21:16:05.363+05:30  INFO 64792 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-11-21T21:16:05.441+05:30  WARN 64792 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-11-21T21:16:06.363+05:30 DEBUG 64792 --- [Lavalink] [main] l.server.io.RequestLoggingFilter         : Filter 'logFilter' configured for use
+2024-11-21T21:16:06.431+05:30 DEBUG 64792 --- [Lavalink] [main] l.server.io.ResponseHeaderFilter         : Filter 'responseHeaderFilter' configured for use
+2024-11-21T21:16:06.440+05:30  INFO 64792 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-11-21T21:16:06.476+05:30  INFO 64792 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-11-21T21:16:06.499+05:30  INFO 64792 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-11-21T21:16:06.711+05:30  INFO 64792 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-11-21T21:16:06.842+05:30  INFO 64792 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 6951 (http) with context path '/'
+2024-11-21T21:16:06.855+05:30  INFO 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 6.559 seconds (process running for 11.751)
+2024-11-21T21:16:06.861+05:30  INFO 64792 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-11-21T21:16:14.596+05:30  INFO 64792 --- [Lavalink] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T21:16:14.599+05:30  INFO 64792 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T21:16:14.602+05:30  INFO 64792 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T21:16:14.635+05:30  WARN 64792 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.PageNotFound             : No mapping for GET /metrics
+2024-11-21T21:16:14.657+05:30  WARN 64792 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.PageNotFound             : No endpoint GET /metrics.
+2024-11-21T21:16:14.659+05:30  INFO 64792 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /metrics, client=0:0:0:0:0:0:0:1
+2024-11-21T21:16:14.936+05:30  WARN 64792 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-11-21T21:16:14.937+05:30  WARN 64792 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.PageNotFound             : No endpoint GET /favicon.ico.
+2024-11-21T21:16:14.937+05:30  INFO 64792 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /favicon.ico, client=0:0:0:0:0:0:0:1
+2024-11-21T21:16:47.407+05:30  INFO 64792 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.13.Final
+2024-11-21T21:16:47.412+05:30  INFO 64792 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-11-21T21:16:47.416+05:30  INFO 64792 --- [Lavalink] [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
