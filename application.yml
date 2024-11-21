@@ -1,165 +1,163 @@
 lavalink:
-    plugins:
-        - dependency: com.github.appujet:jiosaavn-plugin:1.0.2
-          repository: https://jitpack.io
-        - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
-          snapshot: false
-        - dependency: com.github.topi314.sponsorblock:sponsorblock-plugin:3.0.1
-          snapshot: false
-        - dependency: dev.lavalink.youtube:youtube-plugin:1.8.3
-          snapshot: true
-        - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.3.0"
-          repository: "https://maven.lavalink.dev/releases" # this is optional for lavalink v4.0.0-beta.5 or greater
-          snapshot: false # set to true if you want to use snapshot builds (see below)
-  
-    pluginsDir: ./plugins
-    server:
-        bufferDurationMs: 400
-        filters:
-            channelMix: true
-            distortion: true
-            equalizer: true
-            karaoke: true
-            lowPass: true
-            rotation: true
-            timescale: true
-            tremolo: true
-            vibrato: true
-            volume: true
-        frameBufferDurationMs: 5000
-        gc-warnings: true
-        opusEncodingQuality: 10
-        password: ninju@lavalink
-        playerUpdateInterval: 5
-        resamplingQuality: HIGH
-        soundcloudSearchEnabled: true
-        sources:
-            bandcamp: true
-            http: true
-            local: false
-            mixer: true
-            nico: true
-            soundcloud: true
-            twitch: true
-            vimeo: true
-            youtube: false
-        trackStuckThresholdMs: 10000
-        useSeekGhosting: true
-        youtubePlaylistLoadLimit: 6
-        youtubeSearchEnabled: true
+  plugins:
+    - dependency: com.github.appujet:jiosaavn-plugin:1.0.2
+      repository: https://jitpack.io
+    - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
+      snapshot: false
+    - dependency: com.github.topi314.sponsorblock:sponsorblock-plugin:3.0.1
+      snapshot: false
+    - dependency: dev.lavalink.youtube:youtube-plugin:1.8.3
+      snapshot: true
+    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.3.0"
+      repository: "https://maven.lavalink.dev/releases" # this is optional for lavalink v4.0.0-beta.5 or greater
+      snapshot: false # set to true if you want to use snapshot builds (see below)
+
+  pluginsDir: ./plugins
+  server:
+    bufferDurationMs: 400
+    filters:
+      channelMix: true
+      distortion: true
+      equalizer: true
+      karaoke: true
+      lowPass: true
+      rotation: true
+      timescale: true
+      tremolo: true
+      vibrato: true
+      volume: true
+    frameBufferDurationMs: 5000
+    gc-warnings: true
+    opusEncodingQuality: 10
+    password: ninju@lavalink
+    playerUpdateInterval: 5
+    resamplingQuality: HIGH
+    soundcloudSearchEnabled: true
+    sources:
+      bandcamp: true
+      http: true
+      local: false
+      mixer: true
+      nico: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      youtube: false
+    trackStuckThresholdMs: 10000
+    useSeekGhosting: true
 logging:
-    file:
-        path: ./logs/
-    level:
-        com.sedmelluq.discord.lavaplayer.tools.ExceptionTools: DEBUG
-        dev.lavalink.youtube: DEBUG
-        lavalink: DEBUG
-        lavalink.server.io.SocketContext: TRACE
-        root: INFO
-    logback:
-        rollingpolicy:
-            max-file-size: 1GB
-            max-history: 30
-    request:
-        enabled: true
-        includeClientInfo: true
-        includeHeaders: false
-        includePayload: true
-        includeQueryString: true
-        maxPayloadLength: 10000
+  file:
+    path: ./logs/
+  level:
+    com.sedmelluq.discord.lavaplayer.tools.ExceptionTools: DEBUG
+    dev.lavalink.youtube: DEBUG
+    lavalink: DEBUG
+    lavalink.server.io.SocketContext: TRACE
+    root: INFO
+  logback:
+    rollingpolicy:
+      max-file-size: 1GB
+      max-history: 30
+  request:
+    enabled: true
+    includeClientInfo: true
+    includeHeaders: false
+    includePayload: true
+    includeQueryString: true
+    maxPayloadLength: 10000
 metrics:
-    prometheus:
-        enabled: false
-        endpoint: /metrics
+  prometheus:
+    enabled: false
+    endpoint: /metrics
 plugins:
-    dsn: ""
-    dunctebot:
-        plugin_sources:
-            clypit: true
-            getyarn: true
-            mixcloud: true
-            ocremix: true
-            pixeldrain: true
-            pornhub: true
-            reddit: true
-            soundgasm: true
-            tiktok: true
-            tts: true
-        ttsLanguage: en-US
-    environment: ""
-    jiosaavn:
-        apiURL: https://jiosaavn-plugin-api.deno.dev
-        playlistTrackLimit: 50
-        recommendationsTrackLimit: 10
-    lavasrc:
-        applemusic:
-            albumLoadLimit: 6
-            countryCode: US
-            keyID: your key id
-            mediaAPIToken: your apple music api token
-            musicKitKey: |-
-                -----BEGIN PRIVATE KEY-----
-                your key
-                -----END PRIVATE KEY-----
-            playlistLoadLimit: 6
-            teamID: your team id
-        deezer:
-            formats:
-                - FLAC
-                - MP3_320
-                - MP3_256
-                - MP3_128
-                - MP3_64
-                - AAC_64
-            masterDecryptionKey: your master decryption key
-        flowerytts:
-            audioFormat: mp3
-            silence: 0
-            speed: 1
-            translate: false
-            voice: default voice
-        providers:
-            - dzisrc:"%ISRC%"
-            - dzsearch:%QUERY%
-            - jssearch:%QUERY%
-            - scsearch:%QUERY%
-            - tdsearch:%QUERY%
-            - bcsearch:%QUERY%
-        sources:
-            applemusic: false
-            deezer: false
-            flowerytts: false
-            spotify: true
-            tidal: false
-            yandexmusic: false
-            youtube: false
-        spotify:
-            albumLoadLimit: 6
-            countryCode: US
-            playlistLoadLimit: 6
-        youtube:
-            countryCode: US
+  dsn: ""
+  dunctebot:
+    plugin_sources:
+      clypit: true
+      getyarn: true
+      mixcloud: true
+      ocremix: true
+      pixeldrain: true
+      pornhub: true
+      reddit: true
+      soundgasm: true
+      tiktok: true
+      tts: true
+    ttsLanguage: en-US
+  environment: ""
+  jiosaavn:
+    apiURL: https://jiosaavn-plugin-api.deno.dev
+    playlistTrackLimit: 50
+    recommendationsTrackLimit: 10
+  lavasrc:
+    applemusic:
+      albumLoadLimit: 6
+      countryCode: US
+      keyID: your key id
+      mediaAPIToken: your apple music api token
+      musicKitKey: |-
+        -----BEGIN PRIVATE KEY-----
+        your key
+        -----END PRIVATE KEY-----
+      playlistLoadLimit: 6
+      teamID: your team id
+    deezer:
+      formats:
+        - FLAC
+        - MP3_320
+        - MP3_256
+        - MP3_128
+        - MP3_64
+        - AAC_64
+      masterDecryptionKey: your master decryption key
+    flowerytts:
+      audioFormat: mp3
+      silence: 0
+      speed: 1
+      translate: false
+      voice: default voice
+    providers:
+      - dzisrc:"%ISRC%"
+      - dzsearch:%QUERY%
+      - jssearch:%QUERY%
+      - scsearch:%QUERY%
+      - tdsearch:%QUERY%
+      - bcsearch:%QUERY%
+    sources:
+      applemusic: false
+      deezer: false
+      flowerytts: false
+      spotify: true
+      tidal: false
+      yandexmusic: false
+      youtube: true
+    spotify:
+      albumLoadLimit: 6
+      countryCode: US
+      playlistLoadLimit: 6
     youtube:
-        allowDirectPlaylistIds: true
-        allowDirectVideoIds: true
-        allowSearch: true
-        clients:
-            - ANDROID_MUSIC
-            - ANDROID_TESTSUITE
-            - ANDROID_LITE
-            - MEDIA_CONNECT
-            - IOS
-            - MUSIC
-            - WEB
-            - WEBEMBEDDED
-            - TVHTML5EMBEDDED
-        enabled: false
-        pot:
-            token: "${json-select:$.potoken:http://localhost:8080/token}"
-            visitorData: "${json-select:$.visitor_data:http://localhost:8080/token}"
-        sentry: null
+      countryCode: US
+  youtube:
+    allowDirectPlaylistIds: true
+    allowDirectVideoIds: true
+    allowSearch: true
+    clients:
+      - ANDROID_MUSIC
+      - ANDROID_TESTSUITE
+      - ANDROID_LITE
+      - MEDIA_CONNECT
+      - IOS
+      - MUSIC
+      - WEB
+      - WEBEMBEDDED
+      - TVHTML5EMBEDDED
+    enabled: true
+    pot:
+      token: "${json-select:$.potoken:http://localhost:8080/token}"
+      visitorData: "${json-select:$.visitor_data:http://localhost:8080/token}"
+    sentry: null
 server:
-    address: 0.0.0.0
-    http2:
-        enabled: false
-    port: 6951
+  address: 0.0.0.0
+  http2:
+    enabled: false
+  port: 6951
