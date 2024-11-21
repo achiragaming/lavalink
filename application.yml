@@ -8,6 +8,9 @@ lavalink:
           snapshot: false
         - dependency: dev.lavalink.youtube:youtube-plugin:1.8.3
           snapshot: false
+        - dependency: dev.arbjerg.lavalink:lavasrc-plugin:4.0.0
+          repository: https://maven.lavalink.dev/releases
+  
     pluginsDir: ./plugins
     server:
         bufferDurationMs: 400
