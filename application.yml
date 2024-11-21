@@ -155,8 +155,8 @@ plugins:
       #- ANDROID_LITE  ded
     enabled: true
     pot:
-      token: ${POT_TOKEN}
-      visitorData: ${VISITOR_DATA}
+      token: MnSpP78qgmSbpqkH0W-wxcolAGTS0Q81JC1Np45IAFrpeXPyqsqBC24KVVWreMGtAVHllEvFdeTzZh2znfjjI7P14oGZdHmuKo88FYEnLgB5rtZ5Wv-7zjQcQKnCDyqSU_el0EsP6tUNPpsmkAc6zL620Y3pMg==
+      visitorData: Cgs1VUtLemo2Y0Q1dyi_mfu5BjIKCgJVUxIEGgAgJQ%3D%3D
     sentry: null
 server:
   address: 0.0.0.0
