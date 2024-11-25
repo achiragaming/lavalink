@@ -110,9 +110,6 @@ plugins:
       - TVHTML5EMBEDDED
       #- ANDROID_LITE  ded
     enabled: true
-    pot:
-      token: ${YOUTUBE_POT_TOKEN}
-      visitorData: ${YOUTUBE_POT_VISITOR_DATA}
   metrics:
     prometheus:
       enabled: true
