@@ -30,7 +30,7 @@ lavalink:
     frameBufferDurationMs: 5000
     gc-warnings: true
     opusEncodingQuality: 10
-    password: ninju@lavalink
+    password: youshallnotpass
     playerUpdateInterval: 5
     resamplingQuality: HIGH
     soundcloudSearchEnabled: true
@@ -71,28 +71,6 @@ metrics:
     enabled: false
     endpoint: /metrics
 plugins:
-  #   lavasrc:
-  #     providers:
-  #       - dzisrc:"%ISRC%"
-  #       - dzsearch:%QUERY%
-  #       - jssearch:%QUERY%
-  #       - scsearch:%QUERY%
-  #       - tdsearch:%QUERY%
-  #       - bcsearch:%QUERY%
-  #     sources:
-  #       applemusic: false
-  #       deezer: false
-  #       flowerytts: false
-  #       spotify: true
-  #       tidal: false
-  #       yandexmusic: false
-  #       youtube: false
-  #     spotify:
-  #       albumLoadLimit: 6
-  #       countryCode: US
-  #       playlistLoadLimit: 6
-  #     youtube:
-  #       countryCode: US
   youtube:
     allowDirectPlaylistIds: true
     allowDirectVideoIds: true
@@ -118,4 +96,4 @@ server:
   address: 0.0.0.0
   http2:
     enabled: false
-  port: 6951
+  port: 2333
