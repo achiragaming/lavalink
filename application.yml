@@ -82,12 +82,9 @@ plugins:
       - ANDROID 
       - WEBEMBEDDED
       - ANDROID_MUSIC
-      #- ANDROID   its broken in main branch
       - IOS
-      - MEDIA_CONNECT
-      #- ANDROID_TESTSUITE   ded
+      - MWEB 
       - TVHTML5EMBEDDED
-      #- ANDROID_LITE  ded
     enabled: true
   metrics:
     prometheus:
